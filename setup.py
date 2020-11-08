@@ -13,7 +13,7 @@ setup(
   author = 'Abhinav Goyal',                  
   author_email = 'zabhi1292@gmail.com',     
   url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706',  
-  download_url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706/archive/0.01.tar.gz',    
+  download_url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706/archive/0.11.tar.gz',    
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   
   install_requires=[          
           'numpy',
