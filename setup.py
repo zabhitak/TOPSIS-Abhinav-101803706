@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
   name = 'TOPSIS-Abhinav-101803706',        
-  version = '0.1',    
+  version = '0.01',    
   license='MIT',      
   description = 'A package for python implemetation of TOPSIS method for multiple criteria decision making', 
   long_description=long_description,
