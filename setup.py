@@ -1,7 +1,9 @@
 from distutils.core import setup
+
+
 setup(
   name = 'TOPSIS-Abhinav-101803706',         # How you named your package folder (MyLib)
-  packages = ['TOPSIS-Abhinav-101803706'],   # Chose the same as "name"
+  # packages = ['TOPSIS-Abhinav-101803706'],   # Chose the same as "name"
   version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A package for python implemetation of TOPSIS method for multiple criteria decision making',   # Give a short description about your library
@@ -13,7 +15,7 @@ setup(
   install_requires=[            # I get to this in a second
           'numpy',
           'pandas',
-          'scipy.stats',
+          'scipy',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
@@ -24,3 +26,4 @@ setup(
     'Programming Language :: Python :: 3.7',
   ],
 )
+
