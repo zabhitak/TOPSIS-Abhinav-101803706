@@ -1,7 +1,0 @@
-setup.cfg
-setup.py
-TOPSIS_Abhinav_101803706.egg-info/PKG-INFO
-TOPSIS_Abhinav_101803706.egg-info/SOURCES.txt
-TOPSIS_Abhinav_101803706.egg-info/dependency_links.txt
-TOPSIS_Abhinav_101803706.egg-info/requires.txt
-TOPSIS_Abhinav_101803706.egg-info/top_level.txt
