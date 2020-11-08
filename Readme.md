@@ -6,7 +6,7 @@ It is a method of compensatory aggregation that compares a set of alternatives b
 
 
 Instructions to run:
-1. [Download the package](https://pypi.org/project/TOPSIS-Abhinav-101803706/)
+1. [Download the package](https://pypi.org/project/TOPSIS-Abhinav-101803706/0.1/)
 2. Goto to code editor and open the code file. 
 3. Write down "pip install TOPSIS-Abhinav-101803706" on the terminal to download it 
 4. Usage python topsis.py <InputDataFile> <Weights> <Impacts> <ResultFileName> to run the file and result file will be saved with topsis score and rank.
