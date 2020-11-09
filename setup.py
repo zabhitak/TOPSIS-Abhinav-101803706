@@ -1,11 +1,11 @@
-from setuptools import setup
+from distutils.core import setup
 
 # with open("README.md", "r") as fh:
 #     long_description = fh.read()
 
 setup(
   name = 'TOPSIS-Abhinav-101803706',        
-  version = '0.11',    
+  version = '0.12',    
   license='MIT',      
   description = 'A package for python implemetation of TOPSIS method for multiple criteria decision making', 
   # long_description="long_description",
