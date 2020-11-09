@@ -1,19 +1,18 @@
 from distutils.core import setup
 
-# with open("README.md", "r") as fh:
-#     long_description = fh.read()
+long_description = "It is a method of compensatory aggregation that compares a set of alternatives by identifying weights for each criterion, normalising scores for each criterion and calculating the geometric distance between each alternative and the ideal alternative, which is the best score in each criterion"
 
 setup(
   name = 'TOPSIS-Abhinav-101803706',        
-  version = '0.12',    
+  version = '0.1',    
   license='MIT',      
   description = 'A package for python implemetation of TOPSIS method for multiple criteria decision making', 
-  # long_description="long_description",
-  # long_description_content_type="text/markdown",
+  long_description=long_description,
+  long_description_content_type="text/markdown",
   author = 'Abhinav Goyal',                  
   author_email = 'zabhi1292@gmail.com',     
   url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706',  
-  download_url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706/archive/0.12.tar.gz',    
+  download_url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706/archive/0.1.tar.gz',    
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   
   install_requires=[          
           'numpy',
