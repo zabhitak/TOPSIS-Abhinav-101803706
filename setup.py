@@ -4,7 +4,7 @@ long_description = "It is a method of compensatory aggregation that compares a s
 
 setup(
   name = 'TOPSIS-Abhinav-101803706',        
-  version = '0.04',    
+  version = '0.05',    
   license='MIT',      
   description = 'A package for python implemetation of TOPSIS method for multiple criteria decision making', 
   long_description=long_description,
@@ -12,7 +12,7 @@ setup(
   author = 'Abhinav Goyal',                  
   author_email = 'zabhi1292@gmail.com',     
   url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706',  
-  download_url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706/archive/0.04.tar.gz',    
+  download_url = 'https://github.com/zabhitak/TOPSIS-Abhinav-101803706/archive/0.05.tar.gz',    
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   
   install_requires=[          
           'numpy',
