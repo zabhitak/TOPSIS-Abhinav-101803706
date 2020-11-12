@@ -14,6 +14,7 @@ def normalised_mat(filename,weights,impact):
     
     if (dataset.shape[1]<3):
         raise myexception("Input file must contain three or more columns")
+
     if (len(weights)!=len(impact)!=len(column_values[0][:])):
         raise myexception("Number of weights, number of impacts and number of columns (from 2nd to last columns) must be same")
 
@@ -92,8 +93,8 @@ def performance_score(weighted_column,impacts):
 
 def adding_data(score,filename):
     df = pd.read_csv(filename)
-    df = df.assign(Topsis=score)
-    df = df.assign(Rank=ss.rankdata(score))
+    df = df.assign(Topsis_Score=score)
+    df['Rank'] = df['Topsis_Score'].rank(method='max',ascending=False)
     return (df)
 
 def main():
@@ -121,10 +122,10 @@ def main():
         else:
             raise myexception("Impacts must be either +ve or -ve.")
 
-    data_table = normalised_mat(filename,weights,impacts)
-    wt_given = weight_assign(data_table,weights)
-    Performance = performance_score(wt_given,impacts)
-    new_dataset = adding_data(Performance,filename)
+    data_table = normalised_mat(filename,weights,impacts)   # normalised the matrix
+    wt_given = weight_assign(data_table,weights)            # mutiply each value with their respective weights
+    Performance = performance_score(wt_given,impacts)       # calculating performace score for given weight and impact
+    new_dataset = adding_data(Performance,filename)         # now adding performace_score and rank to the csv 
     new_dataset.to_csv(result) 
 
 if __name__=='__main__':
